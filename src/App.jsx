@@ -1,13 +1,15 @@
 import { useState } from 'react'
 import { Header } from './components/Header'
+import { Post } from './components/Post'
 
 import './global.css'
 
 export function App() {
   return (
-    <div className="App">
+    <div>
       <Header />
-      <h1>Ignite feed</h1>
+      
+      <div className="wrapper"></div>
     </div>
   )
 }
